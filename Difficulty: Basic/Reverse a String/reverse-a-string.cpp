@@ -1,9 +1,9 @@
 // User function Template for C++
 class Solution {
   public:
-    string revStr(string s) {
+    string reverseString(string& s) {
         // code here
-        int start = 0, end= s.size()-1;
+         int start = 0, end= s.size()-1;
         
         while(start < end)
         {
